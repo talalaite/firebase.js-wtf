@@ -1,5 +1,19 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Add Meal</h1>
+    <form>
+      <div class="row">
+        <div class="small-8 columns">
+          <div class="row">
+            <div class="small-3 columns">
+              <label for="right-label" class="right inline">Name</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" id="right-label" placeholder="Inline Text Input" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
 </template>
